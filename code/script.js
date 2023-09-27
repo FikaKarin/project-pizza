@@ -149,13 +149,13 @@ let confirmationMessage = `Confirmation of Your Order:\n\n`;
 confirmationMessage += `Name: ${name1}\n`;
 
 if (foodOpt === 1) {
-  confirmationMessage += `Food Choice: Pizza (${pi})\n`;
+  confirmationMessage += `Food Choice: ${pi}\n`;
   confirmationMessage += `Pizza Choice: ${pizzaChoice}\n`;
 } else if (foodOpt === 2) {
-  confirmationMessage += `Food Choice: Pasta (${pa})\n`;
+  confirmationMessage += `Food Choice: ${pa}\n`;
   confirmationMessage += `Pasta Choice: ${pastaChoice}\n`;
 } else if (foodOpt === 3) {
-  confirmationMessage += `Food Choice: Salad (${sa})\n`;
+  confirmationMessage += `Food Choice: ${sa}\n`;
   confirmationMessage += `Salad Choice: ${saladChoice}\n`;
 }
 
