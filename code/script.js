@@ -168,9 +168,13 @@ while (true) {
 
   if (confirmation === '1' || confirmation === '2') {
     if (confirmation === '1') {
-      alert(`Thank you, ${name1}! Your meal will be prepared. Thank you for your order!`);
+      alert(
+        `Thank you, ${name1}! Your meal will be prepared. Thank you for your order!`
+      );
     } else if (confirmation === '2') {
-      alert(`Sorry to see you go, ${name1}! We hope to see you again for your future orders.`);
+      alert(
+        `Sorry to see you go, ${name1}! We hope to see you again for your future orders.`
+      );
     }
     break;
   } else {
