@@ -122,7 +122,7 @@ switch (foodOpt) {
     confirmationMessage += `Pasta Choice: ${pastaChoice}\n`;
     break;
   case 3:
-    confirmationMessage += `Food Choice: Salad (${sa})\n`;
+    confirmationMessage += `Food Choice: ${sa}\n`;
     confirmationMessage += `Salad Choice: ${saladChoice}\n`;
     break;
 }
