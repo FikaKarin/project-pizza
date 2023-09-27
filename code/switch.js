@@ -47,7 +47,7 @@ function getMenuChoice(menu, choiceText) {
   let choice = '';
   while (true) {
     choice = prompt(
-      `Please answer what type of meal you want\n1. ${menu[0]}\n2. ${menu[1]}\n3. ${menu[2]}\nWrite number in input field below:`
+      `Please answer what type of meal you want\n1. ${menu[0]}\n2. ${menu[1]}\n3. ${menu[2]}\n\nWrite number in input field below:`
     );
 
     if (choice === '1' || choice === '2' || choice === '3') {
@@ -82,7 +82,7 @@ let size;
 
 while (true) {
   size = prompt(
-    `Choose size of meal:\n1. ${adult} (${adultPrize} SEK)\n2. ${child} (${childPrize} SEK)\n\nWrite number in input field below:\n`
+    `Choose size of meal:\n1. ${adult} (${adultPrize} SEK)\n2. ${child} (${childPrize} SEK)\n\nWrite number in input field below:`
   );
 
   if (size === '1' || size === '2') {
